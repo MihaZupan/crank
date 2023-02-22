@@ -8,11 +8,8 @@
 jobs:
   h2LoadClient:
     source:
-      repository: https://github.com/MihaZupan/crank.git
-      branchOrCommit: temp
+      localFolder: 'C:/MihaZupan/crank-results/yarp-h2/crank'
       project: src/Microsoft.Crank.Jobs.H2Load/Microsoft.Crank.Jobs.H2Load.csproj
-      sourceKey: h2load
-      noBuild: true
     readyStateText: H2Load Client
     waitForExit: true
     variables:
