@@ -8,8 +8,8 @@
 jobs:
   h2LoadClient:
     source:
-      repository: https://github.com/dotnet/crank.git
-      branchOrCommit: main
+      repository: https://github.com/MihaZupan/crank.git
+      branchOrCommit: temp
       project: src/Microsoft.Crank.Jobs.H2Load/Microsoft.Crank.Jobs.H2Load.csproj
       sourceKey: h2load
       noBuild: true
